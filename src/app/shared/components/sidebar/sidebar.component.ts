@@ -8,6 +8,9 @@ import { GifService } from 'src/app/core/services/gif.service';
     `
       #sidebar {
         height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
         width: 250px;
       }
     `,

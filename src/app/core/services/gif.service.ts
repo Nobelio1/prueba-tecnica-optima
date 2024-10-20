@@ -51,7 +51,7 @@ export class GifService {
 
     const params = new HttpParams()
       .set('api_key', this.key)
-      .set('limit', '10')
+      .set('limit', '20')
       .set('q', tag);
 
     this.httpClient
